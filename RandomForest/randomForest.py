@@ -6,7 +6,7 @@ from csv import reader
 from math import sqrt
 from math import log
 # Load a CSV file
-def load_csv(filename):  #导入csv文件
+def load_csv(Severity):  #导入csv文件
     dataset = list()
     with open(filename, 'r') as file:
         csv_reader = reader(file)
